@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "outDir": "app_bin",
+    "lib": [
+      "esnext"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "~components/*": [
+        "src/components/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
