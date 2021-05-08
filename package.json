@@ -83,7 +83,7 @@
     "sqlite3": "4.0.2",
     "ts-node": "7.0.1",
     "tslib": "1.9.3",
-    "typeorm": "0.2.7",
+    "typeorm": "0.2.25",
     "typescript": "3.1.2"
   },
   "devDependencies": {
